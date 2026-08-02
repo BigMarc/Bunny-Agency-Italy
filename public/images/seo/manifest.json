@@ -1,0 +1,516 @@
+{
+  "site": "italy",
+  "generatedAt": "2026-07-11",
+  "assets": [
+    {
+      "route": "/",
+      "file": "/images/creators/home-hero.webp",
+      "alt": "Creator OnlyFans gestite da Bunny Agency Italia — foto editoriale del team di creator",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38574,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/services",
+      "file": "/images/seo/services-italy.webp",
+      "alt": "Servizi di management per creator in Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40984,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/about",
+      "file": "/images/seo/about-italy.webp",
+      "alt": "Un modello operativo chiaro per creator indipendenti — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37712,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/apply",
+      "file": "/images/seo/apply-italy.webp",
+      "alt": "Candidati per un'analisi strategica riservata — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37202,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog",
+      "file": "/images/seo/blog-italy.webp",
+      "alt": "La biblioteca delle domande delle creator — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 43552,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/faq",
+      "file": "/images/seo/faq-italy.webp",
+      "alt": "Domande sull'agenzia per creator, risposte chiare — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39640,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/pricing",
+      "file": "/images/seo/pricing-italy.webp",
+      "alt": "Costi e perimetro di un'agenzia per creator — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 36866,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/contact",
+      "file": "/images/seo/contact-italy.webp",
+      "alt": "Contatta Bunny Agency Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41496,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/services/account-management",
+      "file": "/images/seo/service-account-management-italy.webp",
+      "alt": "Gestione account — Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 36678,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/services/marketing",
+      "file": "/images/seo/service-marketing-italy.webp",
+      "alt": "Strategia di marketing — Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38748,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/services/chat-management",
+      "file": "/images/seo/service-chat-management-italy.webp",
+      "alt": "Gestione chat — Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38272,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/services/content-strategy",
+      "file": "/images/seo/service-content-strategy-italy.webp",
+      "alt": "Strategia dei contenuti — Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40652,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/services/privacy-dmca",
+      "file": "/images/seo/service-privacy-dmca-italy.webp",
+      "alt": "Privacy e tutela DMCA — Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39044,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-start-onlyfans",
+      "file": "/images/seo/question-how-to-start-onlyfans-italy.webp",
+      "alt": "Come aprire OnlyFans in modo responsabile? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41918,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-start-making-money-on-onlyfans",
+      "file": "/images/seo/question-how-to-start-making-money-on-onlyfans-italy.webp",
+      "alt": "Come iniziare a guadagnare su OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40852,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-much-can-creators-earn",
+      "file": "/images/seo/question-how-much-can-creators-earn-italy.webp",
+      "alt": "Quanto si guadagna su OnlyFans davvero? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39036,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-often-should-creators-post",
+      "file": "/images/seo/question-how-often-should-creators-post-italy.webp",
+      "alt": "Quanto spesso pubblicare su OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41638,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/what-content-performs-best",
+      "file": "/images/seo/question-what-content-performs-best-italy.webp",
+      "alt": "Quali sono i contenuti migliori per OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39620,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-price-a-subscription",
+      "file": "/images/seo/question-how-to-price-a-subscription-italy.webp",
+      "alt": "Prezzo abbonamento OnlyFans: come deciderlo? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37754,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/platform-fees-and-payouts",
+      "file": "/images/seo/question-platform-fees-and-payouts-italy.webp",
+      "alt": "Come funzionano commissioni e pagamenti OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41906,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/creator-taxes-guide",
+      "file": "/images/seo/question-creator-taxes-guide-italy.webp",
+      "alt": "OnlyFans e tasse in Italia: cosa devi sapere? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39736,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/can-creators-stay-anonymous",
+      "file": "/images/seo/question-can-creators-stay-anonymous-italy.webp",
+      "alt": "Si può restare anonima su OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37678,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-protect-your-identity",
+      "file": "/images/seo/question-how-to-protect-your-identity-italy.webp",
+      "alt": "Come proteggere la tua identità da creator? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37576,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-promote-without-spam",
+      "file": "/images/seo/question-how-to-promote-without-spam-italy.webp",
+      "alt": "Come promuovere OnlyFans senza spam? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 42214,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/best-social-platforms-for-creators",
+      "file": "/images/seo/question-best-social-platforms-for-creators-italy.webp",
+      "alt": "Quali sono i migliori social per promuovere OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 42360,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-retain-subscribers",
+      "file": "/images/seo/question-how-to-retain-subscribers-italy.webp",
+      "alt": "Come fidelizzare gli abbonati OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41300,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-write-welcome-messages",
+      "file": "/images/seo/question-how-to-write-welcome-messages-italy.webp",
+      "alt": "Come scrivere un messaggio di benvenuto efficace? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39834,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/when-to-use-ppv-messages",
+      "file": "/images/seo/question-when-to-use-ppv-messages-italy.webp",
+      "alt": "Quando usare i messaggi PPV su OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38474,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-manage-creator-chat",
+      "file": "/images/seo/question-how-to-manage-creator-chat-italy.webp",
+      "alt": "Come gestire la chat con i fan? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39172,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-prevent-leaks-and-use-dmca",
+      "file": "/images/seo/question-how-to-prevent-leaks-and-use-dmca-italy.webp",
+      "alt": "Come prevenire i leak e usare il DMCA? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39042,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/agency-vs-self-management",
+      "file": "/images/seo/question-agency-vs-self-management-italy.webp",
+      "alt": "Agenzia OnlyFans o gestione autonoma? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39106,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-much-does-an-agency-cost",
+      "file": "/images/seo/question-how-much-does-an-agency-cost-italy.webp",
+      "alt": "Quanto costa un'agenzia OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40190,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-choose-a-creator-agency",
+      "file": "/images/seo/question-how-to-choose-a-creator-agency-italy.webp",
+      "alt": "Come scegliere un'agenzia OnlyFans seria? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39394,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/what-should-an-agency-contract-include",
+      "file": "/images/seo/question-what-should-an-agency-contract-include-italy.webp",
+      "alt": "Cosa deve includere il contratto con un'agenzia OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39932,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-build-a-content-calendar",
+      "file": "/images/seo/question-how-to-build-a-content-calendar-italy.webp",
+      "alt": "Come costruire un calendario dei contenuti? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 39044,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-audit-a-creator-account",
+      "file": "/images/seo/question-how-to-audit-a-creator-account-italy.webp",
+      "alt": "Come fare l'audit di un account creator? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37786,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-to-avoid-creator-burnout",
+      "file": "/images/seo/question-how-to-avoid-creator-burnout-italy.webp",
+      "alt": "Come evitare il burnout da creator? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38366,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/what-is-needed-to-apply-to-an-agency",
+      "file": "/images/seo/question-what-is-needed-to-apply-to-an-agency-italy.webp",
+      "alt": "Cosa serve per candidarsi a un'agenzia? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38894,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/questions/how-long-does-sustainable-growth-take",
+      "file": "/images/seo/question-how-long-does-sustainable-growth-take-italy.webp",
+      "alt": "Quanto tempo serve per crescere su OnlyFans? — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38110,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/privacy-policy",
+      "file": "/images/seo/privacy-policy-italy.webp",
+      "alt": "Informativa sulla privacy — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40314,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/terms-of-service",
+      "file": "/images/seo/terms-of-service-italy.webp",
+      "alt": "Termini di servizio — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 42204,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/cookie-policy",
+      "file": "/images/seo/cookie-policy-italy.webp",
+      "alt": "Cookie policy — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40834,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/imprint",
+      "file": "/images/seo/imprint-italy.webp",
+      "alt": "Note legali — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41514,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/disclaimer",
+      "file": "/images/seo/disclaimer-italy.webp",
+      "alt": "Avvertenza editoriale — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40962,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/guide/partita-iva-onlyfans",
+      "file": "/images/seo/guide-partita-iva-onlyfans-italy.webp",
+      "alt": "Partita IVA OnlyFans: la guida completa 2026 — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40610,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/guide/tassa-etica-onlyfans",
+      "file": "/images/seo/guide-tassa-etica-onlyfans-italy.webp",
+      "alt": "Tassa etica OnlyFans: cos'è e quanto costa davvero — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 41196,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/guide/come-funziona-onlyfans",
+      "file": "/images/seo/guide-come-funziona-onlyfans-italy.webp",
+      "alt": "Come funziona OnlyFans: guida completa per iniziare — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 42262,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/guide/onlyfans-senza-mostrare-il-viso",
+      "file": "/images/seo/guide-onlyfans-senza-mostrare-il-viso-italy.webp",
+      "alt": "OnlyFans senza mostrare il viso: la guida completa — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 38050,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/guide/truffe-agenzie-onlyfans",
+      "file": "/images/seo/guide-truffe-agenzie-onlyfans-italy.webp",
+      "alt": "Truffe agenzie OnlyFans: come riconoscerle in Italia — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 40138,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "/blog/guide/quanto-guadagnano-creator-italiane",
+      "file": "/images/seo/guide-quanto-guadagnano-creator-italiane-italy.webp",
+      "alt": "Quanto guadagnano le creator italiane su OnlyFans — Bunny Agency Italia",
+      "width": 1200,
+      "height": 675,
+      "bytes": 37436,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; unique deterministic crop, color grade, and graphic treatment"
+    },
+    {
+      "route": "sitewide-footer",
+      "file": "/images/seo/site-identity.webp",
+      "alt": "Bunny Agency Italia — Italia creator strategy studio",
+      "width": 960,
+      "height": 540,
+      "bytes": 28894,
+      "sourceMaster": "romania-editorial-master.png",
+      "originality": "AI-generated fictional market master; site identity derivative"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.git/
+.next/
+node_modules/
+legacy-src/
+.env*
+*.log
+.DS_Store

@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "overrides": {
+    "postcss": "8.5.16"
+  },
+  "scripts": {
+    "prebuild": "node scripts/generate-llms.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "validate:seo": "node scripts/validate-seo.mjs",
+    "indexnow:submit": "node scripts/submit-indexnow.mjs",
+    "postdeploy": "node scripts/submit-indexnow.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.8.3"
+  },
+  "name": "bunny-agency-italy"
+}
