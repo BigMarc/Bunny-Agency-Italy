@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 
 export type FaqItem = { question: string; answer: string };
 export type Citation = { label: string; url: string };
-export type ContentSection = { heading: string; body: string; items?: string[]; steps?: string[] };
-export type SeoPage = { path: string; category: string; intent: string; keyword: string; title: string; description: string; h1: string; summary: string; image: string; alt: string; sections: ContentSection[]; faq: FaqItem[]; citations: Citation[]; relatedPaths: string[]; datePublished: string; dateModified: string; indexable: boolean; isBlogHub?: boolean; author?: string; italyOnly?: boolean };
+export type ContentSection = { heading: string; body: string; items?: string[]; steps?: string[]; table?: { headers: string[]; rows: string[][] } };
+export type SeoPage = { path: string; category: string; intent: string; keyword: string; title: string; description: string; h1: string; summary: string; image: string; alt: string; sections: ContentSection[]; faq: FaqItem[]; citations: Citation[]; relatedPaths: string[]; datePublished: string; dateModified: string; indexable: boolean; isBlogHub?: boolean; author?: string; hreflangExclusions?: string[]; italyOnly?: boolean };
 export type SiteContent = typeof raw;
 export const content = raw;
 export const pages = raw.pages as SeoPage[];
@@ -24,7 +24,7 @@ export const metadataForPage = (page: SeoPage): Metadata => {
     ? undefined
     : {
         ...Object.fromEntries(
-          Object.entries(raw.site.hreflang as Record<string, string>).map(([locale, base]) => [locale, base + suffix])
+          Object.entries(raw.site.hreflang as Record<string, string>).filter(([locale]) => !page.hreflangExclusions?.includes(locale)).map(([locale, base]) => [locale, base + suffix])
         ),
         "x-default": raw.site.hreflangXDefault + suffix,
       };

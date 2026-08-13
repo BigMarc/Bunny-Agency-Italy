@@ -1056,3 +1056,10 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
   .stat-tile strong { font-size: 1.7rem; }
   .article-body .prose-section ul { grid-template-columns: 1fr; }
 }
+
+/* Data tables in editorial articles stay readable without widening the page. */
+.overflow-x-auto,.content-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.content-table-wrap{margin:1rem 0 1.35rem}
+.article-body table{width:100%;min-width:620px;border-collapse:collapse;font-size:.92rem;line-height:1.45}
+.article-body th,.article-body td{padding:.72rem;text-align:start;vertical-align:top;border:1px solid var(--line,rgba(127,127,127,.35))}
+.article-body th{font-weight:700;color:inherit;background:rgba(127,127,127,.12)}
