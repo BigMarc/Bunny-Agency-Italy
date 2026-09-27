@@ -29,6 +29,7 @@ export default function MarketingPage({ page }: { page: SeoPage }) {
               <strong>{content.labels.directAnswer}</strong>
               <p>{page.summary}</p>
             </div>
+          {page.caseStudyNote && <p className="case-study-note">{page.caseStudyNote}</p>}
             {isHome && heroHome ? <>
               <div className="hero-ctas">
                 {heroHome.ctaPrimary ? <Link className="button button-hero" href={heroHome.ctaPrimary.href}>{heroHome.ctaPrimary.label}</Link> : null}
@@ -38,7 +39,7 @@ export default function MarketingPage({ page }: { page: SeoPage }) {
             </> : null}
           </div>
           <div className="hero-media">
-            <Image className="hero-image" src={page.image} alt={page.alt} width={1200} height={675} priority={page.path === "/"} sizes="(max-width: 960px) 100vw, 52vw" />
+            <Image className="hero-image" src={page.image} alt={page.alt} width={1200} height={675} priority sizes="(max-width: 960px) 100vw, 52vw" />
             <span className="hero-corner hero-corner-tl" aria-hidden="true" />
             <span className="hero-corner hero-corner-br" aria-hidden="true" />
             {isHome && heroHome?.statChip ? <p className="hero-chip"><strong>{heroHome.statChip.value}</strong><span>{heroHome.statChip.label}</span></p> : null}
@@ -49,7 +50,7 @@ export default function MarketingPage({ page }: { page: SeoPage }) {
         {stats.items.map((stat) => <div key={stat.label} className="stat-tile"><strong>{stat.value}</strong><span>{stat.label}</span></div>)}
       </section> : null}
       <div className="content-grid">
-        <main className="article-body">
+        <article className="article-body">
           {page.sections.map((section) => <Reveal as="section" key={section.heading} className="prose-section"><h2>{section.heading}</h2><p>{section.body}</p>{section.steps?.length ? <ol>{section.steps.map((item) => <li key={item}>{item}</li>)}</ol> : null}{section.items?.length ? <ul>{section.items.map((item) => <li key={item}>{item}</li>)}</ul> : null}{section.table?.headers.length ? <div className="overflow-x-auto content-table-wrap"><table><thead><tr>{section.table.headers.map((header) => <th key={header} scope="col">{header}</th>)}</tr></thead><tbody>{section.table.rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{cell}</td>)}</tr>)}</tbody></table></div> : null}</Reveal>)}
           {serviceChildren.length > 0 && <section className="collection"><h2>{content.labels.services}</h2><div className="card-grid">{serviceChildren.map((service) => <Link key={service.path} className="content-card" href={service.path}><span>{service.keyword}</span><h3>{service.h1}</h3><p>{service.summary}</p><strong className="card-cta">{content.labels.read} →</strong></Link>)}</div></section>}
           {articles.length > 0 && <section className="collection"><h2>{content.labels.browse}</h2><div className="card-grid">{articles.map((article) => <Link key={article.path} className="content-card" href={article.path}><span>{article.keyword}</span><h3>{article.h1}</h3><p>{article.summary}</p><strong className="card-cta">{content.labels.read} →</strong></Link>)}</div></section>}
@@ -60,7 +61,7 @@ export default function MarketingPage({ page }: { page: SeoPage }) {
             <p className="ymyl-note">{content.labels.ymyl}</p>
             <p className="reviews-link">{content.labels.reviewsLabel}: {content.site.reviews.map((href, i) => <span key={href}>{i > 0 ? " · " : ""}<a className="review-link" href={href} rel="noopener noreferrer">{new URL(href).hostname.replace(/^www\./, "")}</a></span>)}</p>
           </section>
-        </main>
+        </article>
         <aside className="cta-panel">
           <div className="cta-panel-inner">
             <span className="cta-flourish" aria-hidden="true" />

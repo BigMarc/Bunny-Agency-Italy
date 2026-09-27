@@ -1063,3 +1063,6 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
 .article-body table{width:100%;min-width:620px;border-collapse:collapse;font-size:.92rem;line-height:1.45}
 .article-body th,.article-body td{padding:.72rem;text-align:start;vertical-align:top;border:1px solid var(--line,rgba(127,127,127,.35))}
 .article-body th{font-weight:700;color:inherit;background:rgba(127,127,127,.12)}
+
+/* Confirmed case material remains visible immediately after the direct answer. */
+.case-study-note{margin:1rem 0;font-size:1rem;line-height:1.7}

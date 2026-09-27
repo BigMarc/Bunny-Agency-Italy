@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export type FaqItem = { question: string; answer: string };
 export type Citation = { label: string; url: string };
 export type ContentSection = { heading: string; body: string; items?: string[]; steps?: string[]; table?: { headers: string[]; rows: string[][] } };
-export type SeoPage = { path: string; category: string; intent: string; keyword: string; title: string; description: string; h1: string; summary: string; image: string; alt: string; sections: ContentSection[]; faq: FaqItem[]; citations: Citation[]; relatedPaths: string[]; datePublished: string; dateModified: string; indexable: boolean; isBlogHub?: boolean; author?: string; hreflangExclusions?: string[]; italyOnly?: boolean };
+export type SeoPage = { path: string; category: string; intent: string; keyword: string; title: string; description: string; h1: string; summary: string; caseStudyNote?: string; image: string; alt: string; sections: ContentSection[]; faq: FaqItem[]; citations: Citation[]; relatedPaths: string[]; datePublished: string; dateModified: string; indexable: boolean; isBlogHub?: boolean; author?: string; hreflangExclusions?: string[]; italyOnly?: boolean };
 export type SiteContent = typeof raw;
 export const content = raw;
 export const pages = raw.pages as SeoPage[];

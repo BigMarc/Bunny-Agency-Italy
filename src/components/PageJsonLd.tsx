@@ -13,17 +13,17 @@ export default function PageJsonLd({ page }: { page: SeoPage }) {
     ]
   } : null;
   const main = page.category === "service" ? {
-    "@type": "Service", "@id": absoluteUrl(page.path + "#service"), name: page.h1, description: page.summary,
+    "@type": "Service", inLanguage: content.site.locale, "@id": absoluteUrl(page.path + "#service"), name: page.h1, description: page.summary,
     provider: { "@id": organizationId }, areaServed: content.site.market, url: absoluteUrl(page.path)
   } : page.category === "blog" ? {
-    "@type": "Article", "@id": absoluteUrl(page.path + "#article"), headline: page.h1, description: page.summary,
+    "@type": "Article", inLanguage: content.site.locale, "@id": absoluteUrl(page.path + "#article"), headline: page.h1, description: page.summary,
     image: absoluteUrl(page.image), datePublished: page.datePublished, dateModified: page.dateModified,
     author: { "@type": "Person", name: page.author ?? content.site.legalEntity.managingDirector, worksFor: { "@id": organizationId } },
-    reviewedBy: { "@type": "Person", name: page.author ?? content.site.legalEntity.managingDirector },
     publisher: { "@id": organizationId }, mainEntityOfPage: absoluteUrl(page.path),
     citation: page.citations.map((item) => item.url)
   } : {
-    "@type": "WebPage", "@id": absoluteUrl(page.path + "#webpage"), name: page.h1, description: page.summary, url: absoluteUrl(page.path),
+    "@type": "WebPage", inLanguage: content.site.locale, "@id": absoluteUrl(page.path + "#webpage"), name: page.h1, description: page.summary, url: absoluteUrl(page.path),
+    datePublished: page.datePublished, dateModified: page.dateModified,
     isPartOf: { "@id": absoluteUrl("/#website") }
   };
   const faq = page.faq.length ? {
