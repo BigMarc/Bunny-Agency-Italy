@@ -1,5 +1,13 @@
 # Italy implementation — 27 September 2026
 
+## Delegated decisions — 28 September 2026
+
+The owner delegated all decisions in `Docs/implementation-2026-09-27/OWNER-DECISIONS.md` to Codex on 28 September. That register now supersedes the approval/input choices below. No further choice approval is pending. Existing proof, images/alts and review markup remain protected. Nothing is pushed or deployed.
+
+Implemented all ten Italian core paths with 301 aliases, navigation/breadcrumb/export/sitemap updates and equivalent English sibling paths. All page content and assets moved unchanged. Keep www.bunny-agency.it as the selected launch host; retain main-site Italian sources until the new host and full content transfer are ready. Omit template x-default.
+
+The sections below describe the initial implementation before delegation. Current decisions: [network register](../../Docs/implementation-2026-09-27/OWNER-DECISIONS.md). Follow-up verification and commit hashes: [decision results](../../Docs/implementation-2026-09-27/DECISION-RESULTS.md).
+
 ## Changed
 
 `src/content/site-content.json`: direct Italian answers, complete metadata and the requested agenzia OnlyFans wording on pricing/services; expanded operational sections and FAQs on core money pages. The original 85.000 creator, 150–180 euro and 0,8% material remains, as do all case figures, testimonials and images. The 25–50% commission is explicit. Proof moved below direct answers stays on the same page and in both llms exports.

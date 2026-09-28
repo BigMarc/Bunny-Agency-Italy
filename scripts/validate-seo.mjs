@@ -35,7 +35,7 @@ export function validateContent(data, root) {
     if (page.category === "service" && !page.h1.toLocaleLowerCase().includes(page.keyword.toLocaleLowerCase())) errors.push(`${page.path} service keyword missing from H1`);
     if (page.category === "blog" && ![page.h1, ...page.sections.map((section) => section.heading)].some((value) => value.toLocaleLowerCase().includes(page.keyword.toLocaleLowerCase()))) errors.push(`${page.path} blog keyword missing from H1/H2`);
     for (const related of page.relatedPaths ?? []) if (!paths.has(related)) errors.push(`${page.path} broken related path ${related}`);
-    if (moneyPaths.has(page.path)) {
+    if (moneyPaths.has(page.alternatePath ?? page.path)) {
       if (page.sections.length < 5 || page.sections.length > 7) errors.push(`${page.path} money page needs 5-7 sections`);
       if (page.faq.length < 5) errors.push(`${page.path} money page needs at least 5 FAQs`);
       const rendered = [page.summary, ...page.sections.flatMap((section) => [section.heading, section.body, ...(section.items ?? []), ...(section.steps ?? []), ...(section.table?.headers ?? []), ...(section.table?.rows.flat() ?? [])]), ...page.faq.flatMap((faq) => [faq.question, faq.answer])].join(" ");

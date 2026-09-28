@@ -3,7 +3,7 @@ import { content, pages, type SeoPage } from "@/lib/content";
 
 export function breadcrumbPages(page: SeoPage): SeoPage[] {
   if (page.path === "/") return [];
-  const parentPath = page.path.startsWith("/services/") ? "/services" : page.path.startsWith("/blog/") ? "/blog" : null;
+  const parentPath = page.path.startsWith("/servizi/") ? "/servizi" : page.path.startsWith("/blog/") ? "/blog" : null;
   const parent = parentPath ? pages.find((candidate) => candidate.path === parentPath) : undefined;
   return [...(parent ? [parent] : []), page];
 }

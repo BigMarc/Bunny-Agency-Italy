@@ -9,7 +9,7 @@ import Reveal from "@/components/Reveal";
 export default function MarketingPage({ page }: { page: SeoPage }) {
   const related = page.relatedPaths.filter((item) => item !== page.path).map((item) => pages.find((candidate) => candidate.path === item)).filter(Boolean) as SeoPage[];
   const articles = page.isBlogHub ? pages.filter((item) => item.category === "blog") : [];
-  const serviceChildren = page.path === "/services" ? pages.filter((item) => item.category === "service") : [];
+  const serviceChildren = page.path === "/servizi" ? pages.filter((item) => item.category === "service") : [];
   const media = (content as { videos?: { caseStudiesHeading?: string; testimonialsHeading?: string; caseStudies?: { vimeoId: string; title: string; stat: string }[]; testimonials?: { name: string; vimeoId: string }[] } }).videos;
   const gallery = (content as { creatorGallery?: { heading?: string; items?: { src: string; alt: string }[] } }).creatorGallery;
   const heroHome = (content as { heroHome?: { ctaPrimary?: { label: string; href: string }; ctaSecondary?: { label: string; href: string }; badges?: string[]; statChip?: { value: string; label: string } } }).heroHome;

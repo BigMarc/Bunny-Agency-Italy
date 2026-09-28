@@ -40,7 +40,7 @@ export default function MobileNav({ items, applyLabel }: { items: [string, strin
           {items.map(([href, label]) => (
             <Link key={href} href={href} onClick={() => setOpen(false)}>{label}</Link>
           ))}
-          <Link className="mnav-cta" href="/apply" onClick={() => setOpen(false)}>{applyLabel}</Link>
+          <Link className="mnav-cta" href="/candidatura" onClick={() => setOpen(false)}>{applyLabel}</Link>
         </nav>
       </div>
       {open && <button className="mnav-scrim" aria-hidden="true" tabIndex={-1} onClick={() => setOpen(false)} />}

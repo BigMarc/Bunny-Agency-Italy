@@ -1,3 +1,5 @@
+> Superseded by the owner-delegated decisions on 28 September 2026 in [OWNER-DECISIONS.md](../../Docs/implementation-2026-09-27/OWNER-DECISIONS.md). This is the original proposal inventory, not an outstanding approval request. Italian core paths and NL/Czech/Israel aliases are selected; the men's blanket map and optional country/article migrations are declined.
+
 # Italian URL proposal — approval required
 
 No route, redirect or canonical has changed. Preserve every figure, testimonial, image and image alt on its destination before applying a migration. Keep /, /blog, /faq and all current article paths in this first proposal; the requested core pages receive Italian paths below.

@@ -5,7 +5,7 @@ import MobileNav from "@/components/MobileNav";
 
 export function SiteHeader() {
   const labels = content.labels as typeof content.labels & { pricing?: string; navBlog?: string };
-  const nav: [string, string][] = [["/", labels.home], ["/services", labels.services], ["/pricing", labels.pricing ?? "Prezzi"], ["/blog", labels.navBlog ?? labels.blog], ["/about", labels.about], ["/apply", labels.apply]];
+  const nav: [string, string][] = [["/", labels.home], ["/servizi", labels.services], ["/prezzi", labels.pricing ?? "Prezzi"], ["/blog", labels.navBlog ?? labels.blog], ["/chi-siamo", labels.about], ["/candidatura", labels.apply]];
   return (
     <header className="site-header">
       <div className="site-header-inner">
@@ -15,7 +15,7 @@ export function SiteHeader() {
         </Link>
         <nav className="site-nav" aria-label="Primary">
           {nav.map(([href, label]) => (
-            <Link key={href} href={href} className={href === "/apply" ? "nav-cta" : "nav-link"}>{label}</Link>
+            <Link key={href} href={href} className={href === "/candidatura" ? "nav-cta" : "nav-link"}>{label}</Link>
           ))}
         </nav>
         <MobileNav items={nav} applyLabel={content.labels.apply} />
@@ -41,12 +41,12 @@ export function SiteFooter() {
         <nav className="footer-col" aria-label="Site">
           <strong className="footer-col-title">{labels.services}</strong>
           <Link href="/">{labels.home}</Link>
-          <Link href="/services">{labels.services}</Link>
-          <Link href="/pricing">{labels.pricing ?? "Prezzi"}</Link>
+          <Link href="/servizi">{labels.services}</Link>
+          <Link href="/prezzi">{labels.pricing ?? "Prezzi"}</Link>
           <Link href="/blog">{labels.navBlog ?? labels.blog}</Link>
           <Link href="/faq">{labels.faq}</Link>
-          <Link href="/about">{labels.about}</Link>
-          <Link href="/apply">{labels.apply}</Link>
+          <Link href="/chi-siamo">{labels.about}</Link>
+          <Link href="/candidatura">{labels.apply}</Link>
         </nav>
         <nav className="footer-col" aria-label="Legal">
           <strong className="footer-col-title">{(content.core as { imprintH1?: string }).imprintH1 ?? "Legal"}</strong>
@@ -55,7 +55,7 @@ export function SiteFooter() {
           <Link href="/cookie-policy">{content.core.cookiesH1}</Link>
           <Link href="/imprint">{(content.core as { imprintH1?: string }).imprintH1 ?? "Imprint"}</Link>
           <Link href="/disclaimer">{(content.core as { disclaimerH1?: string }).disclaimerH1 ?? "Disclaimer"}</Link>
-          <Link href="/contact">{content.labels.contact}</Link>
+          <Link href="/contatti">{content.labels.contact}</Link>
         </nav>
       </div>
       {network?.items?.length ? (

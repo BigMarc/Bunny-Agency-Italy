@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export type FaqItem = { question: string; answer: string };
 export type Citation = { label: string; url: string };
 export type ContentSection = { heading: string; body: string; items?: string[]; steps?: string[]; table?: { headers: string[]; rows: string[][] } };
-export type SeoPage = { path: string; category: string; intent: string; keyword: string; title: string; description: string; h1: string; summary: string; caseStudyNote?: string; image: string; alt: string; sections: ContentSection[]; faq: FaqItem[]; citations: Citation[]; relatedPaths: string[]; datePublished: string; dateModified: string; indexable: boolean; isBlogHub?: boolean; author?: string; hreflangExclusions?: string[]; italyOnly?: boolean };
+export type SeoPage = { path: string; category: string; intent: string; keyword: string; title: string; description: string; h1: string; summary: string; caseStudyNote?: string; image: string; alt: string; sections: ContentSection[]; faq: FaqItem[]; citations: Citation[]; relatedPaths: string[]; datePublished: string; dateModified: string; indexable: boolean; isBlogHub?: boolean; author?: string; hreflangExclusions?: string[]; italyOnly?: boolean; alternatePath?: string };
 export type SiteContent = typeof raw;
 export const content = raw;
 export const pages = raw.pages as SeoPage[];
@@ -17,7 +17,7 @@ export const absoluteUrl = (pathname: string) => siteUrl + (pathname === "/" ? "
 
 export const metadataForPage = (page: SeoPage): Metadata => {
   const canonical = absoluteUrl(page.path);
-  const suffix = page.path === "/" ? "" : page.path;
+  const suffix = (page.alternatePath ?? page.path) === "/" ? "" : (page.alternatePath ?? page.path);
   // Pages that exist only on this site have no sibling equivalents: emitting the
   // network hreflang map would point search engines at 404s on every other domain.
   const languages = page.italyOnly
@@ -26,7 +26,6 @@ export const metadataForPage = (page: SeoPage): Metadata => {
         ...Object.fromEntries(
           Object.entries(raw.site.hreflang as Record<string, string>).filter(([locale]) => !page.hreflangExclusions?.includes(locale)).map(([locale, base]) => [locale, base + suffix])
         ),
-        "x-default": raw.site.hreflangXDefault + suffix,
       };
   return {
     title: page.title,

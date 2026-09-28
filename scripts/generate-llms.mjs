@@ -6,7 +6,7 @@ const data = JSON.parse(fs.readFileSync(path.join(root, "src/content/site-conten
 const rating = data.site.aggregateRating;
 const proof = data.pages.find((page) => page.caseStudyNote)?.caseStudyNote;
 const ratingText = rating ? `${data.labels.reviewsLabel}: ${rating.ratingValue}/${rating.bestRating} (${rating.reviewCount}); ${data.labels.updated}: ${rating.verifiedAt}. ${rating.source}` : "";
-const intro = [`# ${data.site.name}`, "", data.site.description, "", `## ${data.labels.about}`, "", data.site.legalEntity.name, "", ...(proof ? [proof, ""] : []), ...(ratingText ? [ratingText, ""] : []), ...["/about", "/pricing"].flatMap((route) => { const page = data.pages.find((item) => item.path === route); return page ? [page.summary, ""] : []; })];
+const intro = [`# ${data.site.name}`, "", data.site.description, "", `## ${data.labels.about}`, "", data.site.legalEntity.name, "", ...(proof ? [proof, ""] : []), ...(ratingText ? [ratingText, ""] : []), ...["/chi-siamo", "/prezzi"].flatMap((route) => { const page = data.pages.find((item) => item.path === route); return page ? [page.summary, ""] : []; })];
 const pages = data.pages.filter((page) => page.indexable);
 const url = (page) => data.site.url + (page.path === "/" ? "" : page.path);
 const index = [...intro, `## ${data.labels.browse}`, "", ...pages.map((page) => `- [${page.h1}](${url(page)}): ${page.summary}${page.caseStudyNote ? " " + page.caseStudyNote : ""}`), "", data.labels.ymyl, ""].join("\n");

@@ -103,8 +103,7 @@
       "bestRating": 5,
       "verifiedAt": "2026-07-18",
       "source": "https://www.trustpilot.com/review/bunny-agency.com"
-    },
-    "hreflangXDefault": "https://alt.bunny-agency.com"
+    }
   },
   "labels": {
     "home": "Home",
@@ -265,16 +264,16 @@
       ],
       "isBlogHub": false,
       "relatedPaths": [
-        "/services",
+        "/servizi",
         "/blog",
-        "/apply",
-        "/pricing",
+        "/candidatura",
+        "/prezzi",
         "/faq",
-        "/services/account-management",
-        "/services/marketing",
-        "/services/chat-management",
-        "/services/content-strategy",
-        "/services/privacy-dmca",
+        "/servizi/gestione-account-onlyfans",
+        "/servizi/marketing-onlyfans",
+        "/servizi/gestione-chat-onlyfans",
+        "/servizi/strategia-contenuti-onlyfans",
+        "/servizi/privacy-dmca",
         "/blog/questions/how-to-start-onlyfans",
         "/blog/questions/can-creators-stay-anonymous",
         "/blog/questions/creator-taxes-guide"
@@ -306,7 +305,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/services",
+      "path": "/servizi",
       "category": "services",
       "intent": "commercial",
       "keyword": "agenzia OnlyFans",
@@ -351,10 +350,11 @@
       "isBlogHub": false,
       "relatedPaths": [
         "/blog",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Maria Gonzales",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/services"
     },
     {
       "indexable": true,
@@ -380,7 +380,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/about",
+      "path": "/chi-siamo",
       "category": "about",
       "intent": "trust",
       "keyword": "Un modello operativo chiaro per creator indipendenti",
@@ -418,12 +418,13 @@
       ],
       "isBlogHub": false,
       "relatedPaths": [
-        "/services",
+        "/servizi",
         "/blog",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Sophia Brecht",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/about"
     },
     {
       "indexable": true,
@@ -449,7 +450,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/apply",
+      "path": "/candidatura",
       "category": "apply",
       "intent": "transactional",
       "keyword": "Candidati per un'analisi strategica riservata",
@@ -493,11 +494,12 @@
       ],
       "isBlogHub": false,
       "relatedPaths": [
-        "/services",
+        "/servizi",
         "/blog"
       ],
       "author": "Sophia Brecht",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/apply"
     },
     {
       "indexable": true,
@@ -557,9 +559,9 @@
       ],
       "isBlogHub": true,
       "relatedPaths": [
-        "/services",
+        "/servizi",
         "/faq",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -650,9 +652,9 @@
       ],
       "isBlogHub": false,
       "relatedPaths": [
-        "/services",
+        "/servizi",
         "/blog",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -681,7 +683,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/pricing",
+      "path": "/prezzi",
       "category": "pricing",
       "intent": "commercial-investigation",
       "keyword": "agenzia OnlyFans",
@@ -740,12 +742,13 @@
       "isBlogHub": false,
       "relatedPaths": [
         "/blog/guide/truffe-agenzie-onlyfans",
-        "/services",
+        "/servizi",
         "/blog",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Sophia Brecht",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale.",
+      "alternatePath": "/pricing"
     },
     {
       "indexable": true,
@@ -771,7 +774,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/contact",
+      "path": "/contatti",
       "category": "contact",
       "intent": "transactional",
       "keyword": "Contatta Bunny Agency Italia",
@@ -805,12 +808,13 @@
       ],
       "isBlogHub": false,
       "relatedPaths": [
-        "/services",
+        "/servizi",
         "/blog",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Sophia Brecht",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/contact"
     },
     {
       "indexable": true,
@@ -836,7 +840,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/services/account-management",
+      "path": "/servizi/gestione-account-onlyfans",
       "category": "service",
       "intent": "commercial",
       "keyword": "gestione account OnlyFans",
@@ -893,14 +897,15 @@
         }
       ],
       "relatedPaths": [
-        "/services/marketing",
-        "/services/chat-management",
-        "/services/content-strategy",
-        "/apply",
+        "/servizi/marketing-onlyfans",
+        "/servizi/gestione-chat-onlyfans",
+        "/servizi/strategia-contenuti-onlyfans",
+        "/candidatura",
         "/blog/questions/how-to-start-onlyfans"
       ],
       "author": "Brigitta B.",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale.",
+      "alternatePath": "/services/account-management"
     },
     {
       "indexable": true,
@@ -926,7 +931,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/services/marketing",
+      "path": "/servizi/marketing-onlyfans",
       "category": "service",
       "intent": "commercial",
       "keyword": "strategia di marketing OnlyFans",
@@ -969,14 +974,15 @@
         }
       ],
       "relatedPaths": [
-        "/services/account-management",
-        "/services/chat-management",
-        "/services/content-strategy",
-        "/apply",
+        "/servizi/gestione-account-onlyfans",
+        "/servizi/gestione-chat-onlyfans",
+        "/servizi/strategia-contenuti-onlyfans",
+        "/candidatura",
         "/blog/questions/best-social-platforms-for-creators"
       ],
       "author": "Maria Gonzales",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/services/marketing"
     },
     {
       "indexable": true,
@@ -1002,7 +1008,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/services/chat-management",
+      "path": "/servizi/gestione-chat-onlyfans",
       "category": "service",
       "intent": "commercial",
       "keyword": "gestione chat OnlyFans",
@@ -1045,14 +1051,15 @@
         }
       ],
       "relatedPaths": [
-        "/services/account-management",
-        "/services/marketing",
-        "/services/content-strategy",
-        "/apply",
+        "/servizi/gestione-account-onlyfans",
+        "/servizi/marketing-onlyfans",
+        "/servizi/strategia-contenuti-onlyfans",
+        "/candidatura",
         "/blog/questions/how-to-manage-creator-chat"
       ],
       "author": "Brigitta B.",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/services/chat-management"
     },
     {
       "indexable": true,
@@ -1078,7 +1085,7 @@
           "url": "https://www.trustpilot.com/review/bunny-agency.com"
         }
       ],
-      "path": "/services/content-strategy",
+      "path": "/servizi/strategia-contenuti-onlyfans",
       "category": "service",
       "intent": "commercial",
       "keyword": "strategia dei contenuti OnlyFans",
@@ -1121,14 +1128,15 @@
         }
       ],
       "relatedPaths": [
-        "/services/account-management",
-        "/services/marketing",
-        "/services/chat-management",
-        "/apply",
+        "/servizi/gestione-account-onlyfans",
+        "/servizi/marketing-onlyfans",
+        "/servizi/gestione-chat-onlyfans",
+        "/candidatura",
         "/blog/questions/how-to-build-a-content-calendar"
       ],
       "author": "Maria Gonzales",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/services/content-strategy"
     },
     {
       "indexable": true,
@@ -1170,7 +1178,7 @@
           "url": "https://www.copyright.gov/dmca-directory/"
         }
       ],
-      "path": "/services/privacy-dmca",
+      "path": "/servizi/privacy-dmca",
       "category": "service",
       "intent": "commercial",
       "keyword": "privacy e tutela DMCA per creator",
@@ -1213,14 +1221,15 @@
         }
       ],
       "relatedPaths": [
-        "/services/account-management",
-        "/services/marketing",
-        "/services/chat-management",
-        "/apply",
+        "/servizi/gestione-account-onlyfans",
+        "/servizi/marketing-onlyfans",
+        "/servizi/gestione-chat-onlyfans",
+        "/candidatura",
         "/blog/questions/how-to-prevent-leaks-and-use-dmca"
       ],
       "author": "Brigitta B.",
-      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
+      "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano.",
+      "alternatePath": "/services/privacy-dmca"
     },
     {
       "indexable": true,
@@ -1310,9 +1319,9 @@
         "/blog/questions/sell-used-panties",
         "/blog/questions/best-cam-sites-for-models",
         "/blog/questions/make-money-on-webcam",
-        "/services",
-        "/apply",
-        "/services/account-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale."
@@ -1499,9 +1508,9 @@
         "/blog/guide/quanto-guadagnano-creator-italiane",
         "/blog/questions/how-often-should-creators-post",
         "/blog/questions/how-to-protect-your-identity",
-        "/services",
-        "/apply",
-        "/services/account-management",
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans",
         "/blog/questions/sell-feet-pics",
         "/blog/questions/sell-used-panties",
         "/blog/questions/best-cam-sites-for-models",
@@ -1573,9 +1582,9 @@
       "relatedPaths": [
         "/blog/questions/what-content-performs-best",
         "/blog/questions/how-to-promote-without-spam",
-        "/services",
-        "/apply",
-        "/services/account-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -1643,9 +1652,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-price-a-subscription",
         "/blog/questions/best-social-platforms-for-creators",
-        "/services",
-        "/apply",
-        "/services/content-strategy"
+        "/servizi",
+        "/candidatura",
+        "/servizi/strategia-contenuti-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -1713,9 +1722,9 @@
       "relatedPaths": [
         "/blog/questions/platform-fees-and-payouts",
         "/blog/questions/how-to-retain-subscribers",
-        "/services",
-        "/apply",
-        "/services/account-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -1791,10 +1800,10 @@
       "relatedPaths": [
         "/blog/questions/creator-taxes-guide",
         "/blog/questions/how-to-write-welcome-messages",
-        "/services",
-        "/apply",
-        "/services/account-management",
-        "/pricing"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans",
+        "/prezzi"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -1898,8 +1907,8 @@
         "/blog/guide/partita-iva-onlyfans",
         "/blog/questions/can-creators-stay-anonymous",
         "/blog/questions/when-to-use-ppv-messages",
-        "/services",
-        "/apply"
+        "/servizi",
+        "/candidatura"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale."
@@ -1976,9 +1985,9 @@
         "/blog/guide/onlyfans-senza-mostrare-il-viso",
         "/blog/questions/how-to-protect-your-identity",
         "/blog/questions/how-to-manage-creator-chat",
-        "/services",
-        "/apply",
-        "/services/privacy-dmca"
+        "/servizi",
+        "/candidatura",
+        "/servizi/privacy-dmca"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2059,9 +2068,9 @@
         "/blog/guide/onlyfans-senza-mostrare-il-viso",
         "/blog/questions/how-to-promote-without-spam",
         "/blog/questions/how-to-prevent-leaks-and-use-dmca",
-        "/services",
-        "/apply",
-        "/services/privacy-dmca"
+        "/servizi",
+        "/candidatura",
+        "/servizi/privacy-dmca"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2129,9 +2138,9 @@
       "relatedPaths": [
         "/blog/questions/best-social-platforms-for-creators",
         "/blog/questions/agency-vs-self-management",
-        "/services",
-        "/apply",
-        "/services/marketing"
+        "/servizi",
+        "/candidatura",
+        "/servizi/marketing-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2199,9 +2208,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-retain-subscribers",
         "/blog/questions/how-much-does-an-agency-cost",
-        "/services",
-        "/apply",
-        "/services/marketing"
+        "/servizi",
+        "/candidatura",
+        "/servizi/marketing-onlyfans"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2269,9 +2278,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-write-welcome-messages",
         "/blog/questions/how-to-choose-a-creator-agency",
-        "/services",
-        "/apply",
-        "/services/chat-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-chat-onlyfans"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2339,9 +2348,9 @@
       "relatedPaths": [
         "/blog/questions/when-to-use-ppv-messages",
         "/blog/questions/what-should-an-agency-contract-include",
-        "/services",
-        "/apply",
-        "/services/account-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2409,9 +2418,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-manage-creator-chat",
         "/blog/questions/how-to-build-a-content-calendar",
-        "/services",
-        "/apply",
-        "/services/chat-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-chat-onlyfans"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2479,9 +2488,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-prevent-leaks-and-use-dmca",
         "/blog/questions/how-to-audit-a-creator-account",
-        "/services",
-        "/apply",
-        "/services/chat-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-chat-onlyfans"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2557,9 +2566,9 @@
       "relatedPaths": [
         "/blog/questions/agency-vs-self-management",
         "/blog/questions/how-to-avoid-creator-burnout",
-        "/services",
-        "/apply",
-        "/services/privacy-dmca"
+        "/servizi",
+        "/candidatura",
+        "/servizi/privacy-dmca"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2627,9 +2636,9 @@
       "relatedPaths": [
         "/blog/questions/how-much-does-an-agency-cost",
         "/blog/questions/what-is-needed-to-apply-to-an-agency",
-        "/pricing",
-        "/apply",
-        "/services/account-management"
+        "/prezzi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2698,9 +2707,9 @@
         "/blog/guide/truffe-agenzie-onlyfans",
         "/blog/questions/how-to-choose-a-creator-agency",
         "/blog/questions/how-long-does-sustainable-growth-take",
-        "/pricing",
-        "/apply",
-        "/services/account-management"
+        "/prezzi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2789,9 +2798,9 @@
         "/blog/guide/truffe-agenzie-onlyfans",
         "/blog/questions/what-should-an-agency-contract-include",
         "/blog/questions/how-to-start-onlyfans",
-        "/pricing",
-        "/apply",
-        "/services/account-management"
+        "/prezzi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano. In Italia circa il 90% delle creator guadagna meno di 180 euro al mese e solo lo 0,8% supera gli 85.000 euro l’anno. Le promesse di \"10.000 euro al mese garantiti\" sono un segnale da verificare: i casi pubblicati non costituiscono una garanzia individuale."
@@ -2860,9 +2869,9 @@
         "/blog/guide/truffe-agenzie-onlyfans",
         "/blog/questions/how-to-build-a-content-calendar",
         "/blog/questions/how-much-can-creators-earn",
-        "/pricing",
-        "/apply",
-        "/services/account-management"
+        "/prezzi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -2930,9 +2939,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-audit-a-creator-account",
         "/blog/questions/how-often-should-creators-post",
-        "/services",
-        "/apply",
-        "/services/content-strategy"
+        "/servizi",
+        "/candidatura",
+        "/servizi/strategia-contenuti-onlyfans"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3000,9 +3009,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-avoid-creator-burnout",
         "/blog/questions/what-content-performs-best",
-        "/services",
-        "/apply",
-        "/services/account-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3070,9 +3079,9 @@
       "relatedPaths": [
         "/blog/questions/what-is-needed-to-apply-to-an-agency",
         "/blog/questions/how-to-price-a-subscription",
-        "/services",
-        "/apply",
-        "/services/content-strategy"
+        "/servizi",
+        "/candidatura",
+        "/servizi/strategia-contenuti-onlyfans"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3140,10 +3149,10 @@
       "relatedPaths": [
         "/blog/questions/how-long-does-sustainable-growth-take",
         "/blog/questions/platform-fees-and-payouts",
-        "/services",
-        "/apply",
-        "/services/account-management",
-        "/pricing"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans",
+        "/prezzi"
       ],
       "author": "Daisy Regia",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3211,9 +3220,9 @@
       "relatedPaths": [
         "/blog/questions/how-to-start-onlyfans",
         "/blog/questions/creator-taxes-guide",
-        "/services",
-        "/apply",
-        "/services/account-management"
+        "/servizi",
+        "/candidatura",
+        "/servizi/gestione-account-onlyfans"
       ],
       "author": "Maria Gonzales",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3279,8 +3288,8 @@
         }
       ],
       "relatedPaths": [
-        "/contact",
-        "/about"
+        "/contatti",
+        "/chi-siamo"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3346,8 +3355,8 @@
         }
       ],
       "relatedPaths": [
-        "/contact",
-        "/about"
+        "/contatti",
+        "/chi-siamo"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3409,8 +3418,8 @@
         }
       ],
       "relatedPaths": [
-        "/contact",
-        "/about"
+        "/contatti",
+        "/chi-siamo"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3472,8 +3481,8 @@
         }
       ],
       "relatedPaths": [
-        "/contact",
-        "/about"
+        "/contatti",
+        "/chi-siamo"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3535,8 +3544,8 @@
         }
       ],
       "relatedPaths": [
-        "/contact",
-        "/about"
+        "/contatti",
+        "/chi-siamo"
       ],
       "author": "Sophia Brecht",
       "caseStudyNote": "Fondata nel 2019, Bunny Agency LLC documenta risultati reali: da $0 a $330k in 3,5 mesi e da $2k a $33k al mese in 2 mesi; i risultati individuali variano."
@@ -3639,8 +3648,8 @@
         "/blog/guide/tassa-etica-onlyfans",
         "/blog/questions/creator-taxes-guide",
         "/blog/guide/quanto-guadagnano-creator-italiane",
-        "/pricing",
-        "/apply"
+        "/prezzi",
+        "/candidatura"
       ],
       "author": "Sophia Brecht",
       "italyOnly": true
@@ -3731,7 +3740,7 @@
         "/blog/guide/partita-iva-onlyfans",
         "/blog/questions/creator-taxes-guide",
         "/blog/guide/quanto-guadagnano-creator-italiane",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Sophia Brecht",
       "italyOnly": true
@@ -3931,7 +3940,7 @@
       "relatedPaths": [
         "/blog/questions/can-creators-stay-anonymous",
         "/blog/questions/how-to-protect-your-identity",
-        "/services/privacy-dmca",
+        "/servizi/privacy-dmca",
         "/blog/guide/come-funziona-onlyfans"
       ],
       "author": "Daisy Regia",
@@ -4022,8 +4031,8 @@
       "relatedPaths": [
         "/blog/questions/how-to-choose-a-creator-agency",
         "/blog/questions/what-should-an-agency-contract-include",
-        "/pricing",
-        "/about"
+        "/prezzi",
+        "/chi-siamo"
       ],
       "author": "Sophia Brecht",
       "italyOnly": true
@@ -4108,7 +4117,7 @@
         "/blog/questions/how-much-can-creators-earn",
         "/blog/guide/partita-iva-onlyfans",
         "/blog/questions/how-to-start-making-money-on-onlyfans",
-        "/apply"
+        "/candidatura"
       ],
       "author": "Sophia Brecht",
       "italyOnly": true
@@ -4227,8 +4236,8 @@
         "/blog/questions/how-to-start-making-money-on-onlyfans",
         "/blog/questions/creator-taxes-guide",
         "/blog/questions/can-creators-stay-anonymous",
-        "/services",
-        "/apply"
+        "/servizi",
+        "/candidatura"
       ]
     },
     {
@@ -4358,8 +4367,8 @@
         "/blog/questions/how-to-start-making-money-on-onlyfans",
         "/blog/questions/creator-taxes-guide",
         "/blog/questions/can-creators-stay-anonymous",
-        "/services",
-        "/apply"
+        "/servizi",
+        "/candidatura"
       ],
       "hreflangExclusions": [
         "ar"
@@ -4500,8 +4509,8 @@
         "/blog/questions/how-to-start-making-money-on-onlyfans",
         "/blog/questions/creator-taxes-guide",
         "/blog/questions/can-creators-stay-anonymous",
-        "/services",
-        "/apply"
+        "/servizi",
+        "/candidatura"
       ]
     },
     {
@@ -4631,8 +4640,8 @@
         "/blog/questions/how-to-start-making-money-on-onlyfans",
         "/blog/questions/creator-taxes-guide",
         "/blog/questions/can-creators-stay-anonymous",
-        "/services",
-        "/apply"
+        "/servizi",
+        "/candidatura"
       ]
     }
   ],
@@ -4746,11 +4755,11 @@
   "heroHome": {
     "ctaPrimary": {
       "label": "Candidati ora — è riservato",
-      "href": "/apply"
+      "href": "/candidatura"
     },
     "ctaSecondary": {
       "label": "Scopri come lavoriamo",
-      "href": "/services"
+      "href": "/servizi"
     },
     "badges": [
       "Attiva dal 2019",
